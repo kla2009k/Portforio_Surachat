@@ -1,0 +1,105 @@
+# สุรชัช ยุทธศิลป์ (Surachat Yutthasil) — Portfolio
+
+นักเรียนโรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย เลย สนใจ Computer Engineering, AI, Computer Vision, Software และ Responsible Technology
+
+## Positioning
+แฟ้มผลงานของนักเรียนที่สนใจการทำให้เทคโนโลยีซับซ้อนกลายเป็นระบบที่คนใช้ได้จริง ตั้งแต่ Computer Vision สำหรับงานสุขภาพ การวิเคราะห์ log ด้านความปลอดภัย ไปจนถึงการออกแบบระบบเกมและการทำงานร่วมกับทีม
+
+## Statement of Purpose
+ผมไม่ได้สนใจคอมพิวเตอร์เพียงเพราะมันทำงานได้ แต่สนใจว่าระบบตัดสินใจอย่างไร พังตรงไหน และเราจะออกแบบให้คนใช้งานได้อย่างมั่นใจโดยไม่เชื่อเทคโนโลยีเกินจริงได้อย่างไร
+
+ผมไม่ได้คาดหวังให้ทุกโครงการในวันนี้สมบูรณ์ แต่คาดหวังว่าทุกโครงการจะทำให้ผมตั้งคำถามได้ดีขึ้น วัดผลตรงขึ้น และรับผิดชอบต่อผู้ใช้มากขึ้น
+
+## Ownership policy
+Ownership ของทุกผลงานถูกระบุชัดว่าเป็น OWN PROJECT, TEAM MEMBER, RESEARCH TRAINEE, COMMISSIONED หรือ CONTRIBUTOR การเข้าร่วมกิจกรรมไม่ถูกอ้างเป็นรางวัล และงานที่สนับสนุนผู้อื่นไม่ถูกอ้างเป็นผลงานเดี่ยว
+
+## Medical AI boundary
+โครงการทางการแพทย์ทั้งหมดเป็นงานศึกษา/ต้นแบบและไม่ได้ใช้เพื่อวินิจฉัยโรค ไม่ได้ผ่าน clinical validation และไม่ควรใช้แทนบุคลากรทางการแพทย์
+
+## Selected work
+## CerviCo-Pilot
+- Type: RESEARCH PROJECT
+- Ownership: TEAM PROJECT
+- Status: SUBMISSION-READY
+- Summary: สำรวจว่าระบบคัดกรองด้วย Computer Vision จะอธิบายเหตุผลของผลลัพธ์ และสื่อสารความไม่แน่นอนได้อย่างไร โดยไม่ทำให้ผู้ใช้เชื่อโมเดลเกินขอบเขต
+- Role: กำหนดโจทย์ ออกแบบแนวทางประมวลผลภาพ วางโมดูลอธิบายผลด้วย Grad-CAM สำรวจการสื่อสาร uncertainty และออกแบบต้นแบบระบบ
+- Validation: โครงการอยู่ในสถานะพร้อมนำเสนอแนวคิดและต้นแบบ แต่ตัวเลขผลการทดลองฉบับสุดท้ายยังอยู่ระหว่างตรวจสอบ เว็บไซต์จึงไม่เผยแพร่ accuracy/recall ที่ยังไม่ได้ยืนยัน
+- Limitations: ยังไม่ได้ผ่านการทดสอบทางคลินิกหรือการประเมินโดยบุคลากรทางการแพทย์; ผลขึ้นกับคุณภาพและความใกล้เคียงของข้อมูลกับสภาพใช้งานจริง; Heatmap ช่วยตรวจพฤติกรรมโมเดล แต่ไม่ใช่คำอธิบายเชิงเหตุผลที่สมบูรณ์
+## VisionCare
+- Type: COMPUTER VISION
+- Ownership: OWN PROJECT
+- Status: IN PROGRESS
+- Summary: ต้นแบบการใช้ภาพ retinal fundus เพื่อศึกษาการคัดกรอง diabetic retinopathy พร้อม Grad-CAM และการออกแบบผลลัพธ์ที่ไม่ทำให้ระบบดูเป็นแพทย์ทดแทน
+- Role: พัฒนาแนวคิด ทดลอง pipeline Computer Vision วาง Grad-CAM และออกแบบประสบการณ์แสดงผล
+- Validation: สถานะปัจจุบันเป็นโครงการที่กำลังพัฒนา หลักฐานเชิงตัวเลขจะเผยแพร่หลังจัดชุดทดสอบ และตรวจวิธีคำนวณ metric ให้ทำซ้ำได้
+- Limitations: ยังไม่มี clinical validation; ภาพจากกล้องหรือแหล่งข้อมูลต่างกันอาจทำให้ผลเปลี่ยน; ยังต้องประเมิน recall และ false negative อย่างระมัดระวัง
+## LogSight TH
+- Type: AI × CYBERSECURITY
+- Ownership: OWN PROJECT
+- Status: PROTOTYPE
+- Summary: แนวคิดเครื่องมือช่วยอ่าน log จำนวนมาก จัดกลุ่มเหตุการณ์ที่ควรตรวจต่อ และอธิบายเหตุผลโดยไม่แทนที่การตัดสินใจของผู้ดูแลระบบ
+- Role: กำหนดแนวคิด ออกแบบข้อมูลนำเข้า ลำดับการวิเคราะห์ และต้นแบบประสบการณ์ใช้งาน
+- Validation: หลักฐานที่ยืนยันได้ในขณะนี้คือการเข้าร่วม 2nd Leagues of Code AI & Cyber Security Hackathon; ไม่อ้างว่าได้รับรางวัลจากกิจกรรมดังกล่าว
+- Limitations: ยังต้องทดสอบกับ log ที่หลากหลายและกำหนด baseline; LLM ไม่ควรถูกใช้เป็นแหล่งข้อเท็จจริงด้าน security โดยลำพัง; ข้อมูล log อาจมีข้อมูลอ่อนไหวและต้องมีนโยบาย retention/access control
+## Smart City & Community
+- Type: GAME SYSTEMS
+- Ownership: TEAM MEMBER
+- Status: 3RD RUNNER-UP
+- Summary: เกม Simulation บน Unity ภายใต้แนวคิด SDGs ให้ผู้เล่นจัดการวิกฤตในเมือง เช่น ขยะ ไฟป่า และน้ำท่วม โดยรับผิดชอบการออกแบบระบบเกม การเขียนโค้ด และ code review
+- Role: ออกแบบและพัฒนาระบบเกม เขียนโค้ด และทำ code review ร่วมกับทีม
+- Validation: ได้รับรางวัลรองชนะเลิศอันดับ 3 ในรอบ preliminary ประเทศไทย และมีเกียรติบัตรยืนยันการเข้าร่วม การแข่งขันจัดระหว่างวันที่ 20–25 ตุลาคม 2024
+- Limitations: เป็นต้นแบบจากการแข่งขันภายใต้เวลาจำกัด; ระบบถูกออกแบบเพื่อสื่อสารแนวคิด ไม่ใช่แบบจำลองเมืองเชิงวิทยาศาสตร์; ผลงานเป็นงานทีม จึงระบุเฉพาะส่วนที่รับผิดชอบ
+## Prostate Cancer Auto-segmentation
+- Type: RESEARCH EXPERIENCE
+- Ownership: RESEARCH TRAINEE
+- Status: COMPLETED
+- Summary: ประสบการณ์ฝึกวิจัยที่เลือกหัวข้อการวาดขอบเขตมะเร็งต่อมลูกหมากอัตโนมัติ และลงมือกับ preprocessing, model training และ model testing
+- Role: ผู้เข้าร่วมฝึกวิจัย เลือกหัวข้อ ศึกษากระบวนการ และทดลอง Deep Learning ภายใต้การพี่เลี้ยง
+- Validation: มีเกียรติบัตรจากคณะแพทยศาสตร์ศรีสวางควัฒน ราชวิทยาลัยจุฬาภรณ์ สำหรับการเข้าร่วมโครงการวิทยาลัยพี่เลี้ยงโรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย รุ่นที่ 4
+- Limitations: เป็นประสบการณ์ฝึกวิจัย ไม่ใช่งานวิจัยตีพิมพ์; ไม่เผยแพร่ metric ที่ไม่มีบันทึกวิธีคำนวณรองรับ; ผลการทดลองไม่ใช่เครื่องมือสำหรับใช้กับผู้ป่วยจริง
+## StoreIQ
+- Type: DATA / CLOUD SYSTEM
+- Ownership: PROJECT LEAD / FULL-STACK
+- Status: HACKATHON PROTOTYPE
+- Summary: ระบบวิเคราะห์ CSV ยอดขายสำหรับ SME ที่รวม anomaly detection, market basket, แนวโน้มรายได้ และคำอธิบาย insight ด้วย AI ไว้ใน workflow เดียว
+- Role: วางผลิตภัณฑ์ ออกแบบ dashboard และ workflow วิเคราะห์ข้อมูล พัฒนา frontend/backend และเตรียมสถาปัตยกรรม AWS สำหรับการนำเสนอในบริบท Retail Tech Hackathon
+- Validation: repository มี frontend, backend, AWS CDK, preview และเอกสารสรุประบบครบระดับต้นแบบ แต่ deployment CloudFront ที่บันทึกไว้เดิมไม่สามารถ resolve DNS ได้ ณ วันที่ตรวจ จึงไม่แสดงเป็น live demo
+- Limitations: ยังไม่มีหลักฐานผลรางวัลหรือเกียรติบัตร Gosoft ใน workspace; เอกสารทีมมีข้อมูลไม่ตรงกันบางจุด จึงระบุบทบาทแบบ project lead/full-stack แทนการอ้างว่าเป็นงานเดี่ยว; ข้อมูลตัวอย่างและสมมติฐานต้นทุนยังไม่ใช่ข้อมูลปฏิบัติการจริงของร้านค้าไทย; เวอร์ชันต้นแบบยังไม่มี authentication, caching และฐานข้อมูลถาวร
+## Lulla Smart Cradle
+- Type: IOT / COMPUTER VISION
+- Ownership: SYSTEM BUILDER
+- Status: CODE PROTOTYPE
+- Summary: ต้นแบบระบบเปลอัจฉริยะที่ตรวจการเคลื่อนไหว ใบหน้า และท่านอนจากกล้อง พร้อมอ่านสภาพแวดล้อม ควบคุมมอเตอร์ และส่งสถานะผ่านเว็บกับ Telegram
+- Role: พัฒนาโครงระบบ Python แยกโมดูลกล้อง เซนเซอร์ มอเตอร์ Telegram และ dashboard พร้อม mock mode สำหรับทดสอบ logic บนคอมพิวเตอร์ที่ไม่มี Raspberry Pi
+- Validation: ตรวจพบโค้ดครบทุกโมดูลและสามารถเปิด dashboard ใน mock environment ได้ แต่ยังไม่มีภาพต้นแบบฮาร์ดแวร์ วงจร หรือผลทดสอบกับเปลจริง จึงนำเสนอเป็น code prototype
+- Limitations: การประเมินท่านอนเป็น heuristic จาก 2D pose และอาจเกิด false positive/false negative; ไม่ใช่อุปกรณ์การแพทย์หรือระบบป้องกัน SIDS และห้ามใช้แทนการดูแลของผู้ปกครอง; ยังไม่มีผลทดสอบ latency, uptime, sensor calibration หรือการทำงานระยะยาวบน Raspberry Pi; ต้องเพิ่มภาพฮาร์ดแวร์และ circuit diagram หากมีการประกอบต้นแบบจริง
+
+## Additional project archive
+- FarmFinance AI — SYSTEM BUILDER / WORKING PROTOTYPE: รวมข้อมูลเกษตรภาครัฐ กระแสเงินสดรายเดือน Monte Carlo และโมดูลเงินกู้ เพื่อช่วยให้เกษตรกรเห็นโอกาสขาดทุนก่อนตัดสินใจปลูก
+- Bangkok Transit 3D — SYSTEM BUILDER / FUNCTIONAL PWA: ค้นหาจากสถานที่จริง เลือกสถานีต้นทาง–ปลายทาง คำนวณเส้นทางด้วย Dijkstra และแสดงขบวนรถ อาคาร ทางรถไฟ และระดับความสูงใน Three.js
+- DermaTrace AI — AI / WEB BUILDER / MODEL INTEGRATED: ระบบวิเคราะห์ภาพรอยโรคผิวหนังด้วย U‑Net segmentation, EfficientNet classification และ Grad‑CAM พร้อมหน้า performance และรายงานผล
+- HealTrack — FULL-STACK BUILDER / UI COMPLETE / MODEL STUB: เว็บ React + FastAPI สำหรับแชท บันทึกประวัติ กราฟแนวโน้ม และเปรียบเทียบภาพในโหมด Guest/Member พร้อม fallback เมื่อบริการภายนอกล่ม
+- ชีวิตติดราง — GAME / SYSTEM BUILDER / PLAYABLE PROTOTYPE: เกม 7 วันบนเครือข่ายรถไฟจริง ให้ผู้เล่นบริหารเวลา เงิน สุขภาพ และความสุขผ่านอาชีพและเหตุการณ์ที่แตกต่างกัน
+- GridCrew — PRODUCT / STRATEGY LEAD / TOP-50 PROPOSAL / POC: แนวคิด LINE bot สำหรับหัวหน้าแผนก PM ให้ตรวจคน เครื่องมือ รถ และอะไหล่ก่อนรับงาน พร้อมอธิบายเหตุผลของทีมที่ระบบแนะนำ
+- EsportsEdge — PERSONAL R&D / PAPER-ONLY RESEARCH: pipeline อ่านข้อมูลจริงจาก VLR/Polymarket สร้าง feature ก่อนแข่ง ฝึก calibrated model และติดตาม Brier score, Elo, lineup และความคลาดเคลื่อนจากตลาด
+- Regional Edge AI Lab — TEAM MEMBER / PARTICIPATION VERIFIED: คลังทดลองของทีมในการออกแบบระบบคัดแยกขยะ วิเคราะห์เสียงเตือนภัย predictive maintenance และ multimodal safety บนอุปกรณ์ Edge AI
+- Dengue Forecasting — COMMISSIONED DEVELOPMENT / DELIVERED / LIMITED DATA: งานวิเคราะห์ข้อมูลรายเดือน พ.ศ. 2562–2565 ด้วย rolling observed window พร้อมหลาย seed, test predictions, data-quality gate และรายงานฉบับส่งมอบ
+- Research Agent — SYSTEM BUILDER / CODE PROTOTYPE: ระบบจำแนกงานเป็น study, research, compete และ summarize ก่อนใช้โมเดลขนาดเล็กเรียกเครื่องมือ แล้วส่งงานซับซ้อนให้โมเดลอีกระดับสังเคราะห์คำตอบ
+- DentScan AI — DEVELOPMENT SUPPORT / COMMISSIONED / IN PROGRESS: งานรับพัฒนาระบบ Computer Vision สำหรับภาพเอกซเรย์ฟัน พร้อมเว็บสาธิตและขั้นตอนเตรียมการส่งมอบ
+- DuckCheck — SYSTEM DEVELOPMENT / COMMISSIONED / IN PROGRESS: ต้นแบบผู้ช่วยสนทนาเรื่องยาที่ใช้ LLM สำหรับการสื่อสาร แต่ให้ deterministic rule engine รับผิดชอบกฎที่ต้องควบคุม
+- DermaVision — WEB / SYSTEM CONTRIBUTOR / CONTRIBUTION DOCUMENTED: มีส่วนพัฒนาเว็บและระบบประกอบโครงการ AI วิเคราะห์ภาพผิวหนัง โดยแยกบทบาทผู้พัฒนาออกจากเจ้าของแนวคิดและสมาชิกทีม
+- TOI Zero Algorithm Log — PRACTICE ARCHIVE / 51 SOLUTION FILES / UNVERIFIED JUDGE: รวบรวมโค้ด C++ ประมาณ 51 ไฟล์คู่กับเอกสารโจทย์ เพื่อฝึกการคิดเชิงอัลกอริทึม โครงสร้างข้อมูล และการแก้ปัญหาเป็นขั้นตอน
+- Video Editing Automation Kit — TOOLKIT BUILDER / IMPLEMENTED / TEST PENDING: ชุดสคริปต์สำหรับตรวจ setup, jump cut, สร้าง SRT, burn subtitle และ export รูปแบบสำหรับหลายแพลตฟอร์ม พร้อมเอกสาร architecture และ workflow งาน freelance
+- Pocket Life — FULL-STACK GAME BUILDER / PRIVATE BUILD / REBRAND REQUIRED: เกม personal companion ที่มี frontend, Express backend, lowdb, ระบบบันทึกสถานะ และ localStorage fallback พร้อมรายละเอียดด้าน interaction และ accessibility ของอารมณ์ผู้เล่น
+
+## Verified recognition
+- รองชนะเลิศอันดับ 3 — Thailand–Japan Game Programming Hackathon 2024 preliminary round in Thailand
+- Participation — Thailand–Japan Student ICT Fair 2024
+- Research trainee — วิทยาลัยพี่เลี้ยง รุ่นที่ 4 คณะแพทยศาสตร์ศรีสวางควัฒน
+- Training — AI & Machine Learning โดยศูนย์บริการวิชาการ มศว.
+- Certificate of Participation — 2nd Leagues of Code AI & Cyber Security Hackathon
+- Participation — Regional Coding & AI Competition ภาคอีสานตอนกลาง, 21–23 มิถุนายน 2569
+
+## Contact
+- Email: sarangkuy2551@gmail.com
+- Location: Loei, Thailand
