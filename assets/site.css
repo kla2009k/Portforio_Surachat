@@ -119,6 +119,31 @@ h1, h2, h3 { text-wrap: balance; }
 .reader-path-grid b { align-self: end; font-size: .98rem; }
 .reader-path-grid small { color: var(--ink-soft); font-size: .72rem; }
 
+/* Latest recognition */
+.latest-recognition { border-bottom: var(--line); background: var(--coral-dark); color: var(--surface); }
+.recognition-heading .micro { color: var(--peach); }
+.latest-recognition .recognition-heading > p { color: color-mix(in oklch, var(--surface) 88%, var(--coral-dark)); }
+.recognition-feature-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 1.25rem; }
+.recognition-feature { grid-column: span 7; overflow: hidden; border: 1px solid color-mix(in oklch, var(--surface) 30%, var(--coral-dark)); border-radius: .9rem; background: var(--surface); color: var(--ink); }
+.recognition-feature--2 { grid-column: span 5; background: var(--butter); }
+.recognition-feature figure { position: relative; aspect-ratio: 16 / 10; margin: 0; overflow: hidden; border-bottom: var(--line); background: var(--cream-deep); }
+.recognition-feature--2 figure { aspect-ratio: 4 / 3; }
+.recognition-feature img { width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform .6s var(--ease-out); }
+.recognition-feature--1 img { object-position: center 28%; }
+.recognition-feature:hover img { transform: scale(1.018); }
+.recognition-proof-strip { height: 7rem; display: grid; grid-template-columns: repeat(3, 1fr); margin: 0; padding: 0; border-bottom: var(--line); background: var(--cream-deep); list-style: none; }
+.recognition-proof-strip li { min-width: 0; overflow: hidden; border-right: var(--line); }
+.recognition-proof-strip li:last-child { border-right: 0; }
+.recognition-proof-strip img { width: 100%; height: 100%; object-fit: cover; object-position: center; background: var(--surface); }
+.recognition-proof-strip li:nth-child(n+2) img { object-fit: contain; }
+.recognition-feature-copy { padding: clamp(1.25rem, 2.5vw, 2rem); }
+.recognition-feature-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .65rem 1rem; color: var(--muted); font: 600 .62rem/1.5 var(--mono); }
+.recognition-feature-meta span { color: var(--coral-dark); }
+.recognition-feature h3 { margin: 1rem 0 .4rem; font: 700 clamp(1.65rem, 3.2vw, 2.8rem)/1.1 var(--display); letter-spacing: -.025em; }
+.recognition-feature--2 h3 { font-size: clamp(1.5rem, 2.7vw, 2.25rem); }
+.recognition-result { max-width: 30ch; margin: .35rem 0 1rem; color: var(--coral-dark); font: 700 clamp(1.05rem, 1.6vw, 1.35rem)/1.45 var(--display); }
+.recognition-feature-copy > p:not(.recognition-result) { max-width: 62ch; color: var(--ink-soft); }
+
 /* Shared sections */
 .section { padding-block: clamp(4.5rem, 9vw, 7rem); }
 .section-heading { display: grid; grid-template-columns: minmax(0, 1fr) minmax(18rem, .55fr); gap: 3rem; align-items: end; margin-bottom: 2.5rem; }
@@ -355,6 +380,7 @@ h2 { margin: .5rem 0 0; font: 700 clamp(2rem, 4.2vw, 3.8rem)/1.12 var(--display)
   .hero h1 { max-width: 11ch; }
   .hero-gallery { min-height: 31rem; max-width: 43rem; }
   .reader-path-grid { grid-template-columns: 1fr 1fr; }
+  .recognition-feature, .recognition-feature--2 { grid-column: span 6; }
   .profile-facts { grid-template-columns: 1fr 1fr; }
   .profile-facts div, .profile-facts div:first-child { padding: 1rem; border-top: var(--line); border-left: var(--line); }
   .profile-facts div:nth-child(odd) { border-left: 0; }
@@ -408,6 +434,9 @@ h2 { margin: .5rem 0 0; font: 700 clamp(2rem, 4.2vw, 3.8rem)/1.12 var(--display)
   .hero-shot figcaption { inset: auto .4rem .4rem; padding: .4rem; }
   .hero-shot figcaption b { display: none; }
   .reader-path-grid { grid-template-columns: 1fr; }
+  .recognition-feature, .recognition-feature--2 { grid-column: 1 / -1; }
+  .recognition-feature figure, .recognition-feature--2 figure { aspect-ratio: 4 / 3; }
+  .recognition-proof-strip { height: 5.75rem; }
   .profile-facts { grid-template-columns: 1fr; }
   .profile-facts div, .profile-facts div:first-child, .profile-facts div:nth-child(n) { padding: 1rem 0; border-top: var(--line); border-left: 0; }
   .profile-facts div:first-child { border-top: 0; }

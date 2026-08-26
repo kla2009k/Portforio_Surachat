@@ -3,7 +3,7 @@
 นักเรียนโรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย เลย สนใจ Computer Engineering, AI, Computer Vision, Software และ Responsible Technology
 
 ## Positioning
-แฟ้มผลงานของนักเรียนที่สนใจการทำให้เทคโนโลยีซับซ้อนกลายเป็นระบบที่คนใช้ได้จริง ตั้งแต่ Computer Vision สำหรับงานสุขภาพ การวิเคราะห์ log ด้านความปลอดภัย ไปจนถึงการออกแบบระบบเกมและการทำงานร่วมกับทีม
+แฟ้มผลงานของนักเรียนที่เปลี่ยนโจทย์ซับซ้อนให้เป็นระบบที่คนใช้และตรวจสอบได้ ตั้งแต่ Retinova AI ที่นำเสนอในเวทีนวัตกรรมนานาชาติ ไปจนถึงการแก้โจทย์ Cybersecurity ภายใต้เวลาจำกัดร่วมกับทีม
 
 ## Statement of Purpose
 ผมไม่ได้สนใจคอมพิวเตอร์เพียงเพราะมันทำงานได้ แต่สนใจว่าระบบตัดสินใจอย่างไร พังตรงไหน และเราจะออกแบบให้คนใช้งานได้อย่างมั่นใจโดยไม่เชื่อเทคโนโลยีเกินจริงได้อย่างไร
@@ -25,13 +25,13 @@ Ownership ของทุกผลงานถูกระบุชัดว่�
 - Role: กำหนดโจทย์ ออกแบบแนวทางประมวลผลภาพ วางโมดูลอธิบายผลด้วย Grad-CAM สำรวจการสื่อสาร uncertainty และออกแบบต้นแบบระบบ
 - Validation: โครงการอยู่ในสถานะพร้อมนำเสนอแนวคิดและต้นแบบ แต่ตัวเลขผลการทดลองฉบับสุดท้ายยังอยู่ระหว่างตรวจสอบ เว็บไซต์จึงไม่เผยแพร่ accuracy/recall ที่ยังไม่ได้ยืนยัน
 - Limitations: ยังไม่ได้ผ่านการทดสอบทางคลินิกหรือการประเมินโดยบุคลากรทางการแพทย์; ผลขึ้นกับคุณภาพและความใกล้เคียงของข้อมูลกับสภาพใช้งานจริง; Heatmap ช่วยตรวจพฤติกรรมโมเดล แต่ไม่ใช่คำอธิบายเชิงเหตุผลที่สมบูรณ์
-## VisionCare
+## Retinova AI
 - Type: COMPUTER VISION
-- Ownership: OWN PROJECT
-- Status: IN PROGRESS
-- Summary: ต้นแบบการใช้ภาพ retinal fundus เพื่อศึกษาการคัดกรอง diabetic retinopathy พร้อม Grad-CAM และการออกแบบผลลัพธ์ที่ไม่ทำให้ระบบดูเป็นแพทย์ทดแทน
-- Role: พัฒนาแนวคิด ทดลอง pipeline Computer Vision วาง Grad-CAM และออกแบบประสบการณ์แสดงผล
-- Validation: สถานะปัจจุบันเป็นโครงการที่กำลังพัฒนา หลักฐานเชิงตัวเลขจะเผยแพร่หลังจัดชุดทดสอบ และตรวจวิธีคำนวณ metric ให้ทำซ้ำได้
+- Ownership: TEAM PROJECT / SYSTEM BUILDER
+- Status: INTERNATIONAL EXHIBITION / AWARDED
+- Summary: ต้นแบบ AI วิเคราะห์ภาพ retinal fundus พร้อม Grad-CAM และการสื่อสารข้อจำกัด นำเสนอในงาน IEI 2026 ประเทศจีน และได้รับ NRCT Honorable Mention Award
+- Role: ร่วมพัฒนาโครงการ โดยทำงานกับ pipeline Computer Vision, Grad-CAM, เว็บสาธิต และการเตรียมระบบสำหรับนำเสนอร่วมกับทีม
+- Validation: เอกสารและภาพงานยืนยันการนำเสนอ Advanced Intelligent Retinal Disease Screening System ใน The 12th International Exhibition of Inventions (IEI 2026) เมืองกว่างโจว ประเทศจีน และการได้รับ NRCT Honorable Mention Award จากสำนักงานการวิจัยแห่งชาติ (วช.) ส่วนระบบ AI ยังคงเป็นต้นแบบวิจัย ไม่ใช่อุปกรณ์วินิจฉัย
 - Limitations: ยังไม่มี clinical validation; ภาพจากกล้องหรือแหล่งข้อมูลต่างกันอาจทำให้ผลเปลี่ยน; ยังต้องประเมิน recall และ false negative อย่างระมัดระวัง
 ## LogSight TH
 - Type: AI × CYBERSECURITY
@@ -93,6 +93,8 @@ Ownership ของทุกผลงานถูกระบุชัดว่�
 - Pocket Life — FULL-STACK GAME BUILDER / PRIVATE BUILD / REBRAND REQUIRED: เกม personal companion ที่มี frontend, Express backend, lowdb, ระบบบันทึกสถานะ และ localStorage fallback พร้อมรายละเอียดด้าน interaction และ accessibility ของอารมณ์ผู้เล่น
 
 ## Verified recognition
+- NRCT Honorable Mention Award — Retinova AI, IEI 2026, Guangzhou, China
+- First place — Informatics MSU Hackathon 2026, Cybersecurity, secondary-school level
 - รองชนะเลิศอันดับ 3 — Thailand–Japan Game Programming Hackathon 2024 preliminary round in Thailand
 - Participation — Thailand–Japan Student ICT Fair 2024
 - Research trainee — วิทยาลัยพี่เลี้ยง รุ่นที่ 4 คณะแพทยศาสตร์ศรีสวางควัฒน
